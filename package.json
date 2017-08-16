@@ -1,0 +1,21 @@
+{
+  "name": "@neuroo_fe/wechat-reply",
+  "version": "1.0.1",
+  "description": "微信关键字自动回复模块",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeurooFE/wechat-reply.git"
+  },
+  "keywords": [
+    "wechat",
+    "keyword",
+    "reply"
+  ],
+  "author": "yupeng.kuo <yupeng.kuo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeurooFE/wechat-reply/issues"
+  },
+  "homepage": "https://github.com/NeurooFE/wechat-reply#readme"
+}
