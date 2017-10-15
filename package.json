@@ -1,6 +1,6 @@
 {
   "name": "@neuroo_fe/wechat-reply",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "微信关键字自动回复模块",
   "main": "index.js",
   "repository": {
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/NeurooFE/wechat-reply/issues"
   },
-  "homepage": "https://github.com/NeurooFE/wechat-reply#readme"
+  "homepage": "https://github.com/NeurooFE/wechat-reply#readme",
+  "dependencies": {
+    "wechat-encrypt": "^1.0.0",
+    "xml2js": "^0.4.19"
+  }
 }
