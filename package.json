@@ -1,6 +1,6 @@
 {
   "name": "@neuroo_fe/wechat-reply",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "微信关键字自动回复模块",
   "main": "index.js",
   "repository": {
