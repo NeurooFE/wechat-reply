@@ -18,8 +18,5 @@
     "url": "https://github.com/NeurooFE/wechat-reply/issues"
   },
   "homepage": "https://github.com/NeurooFE/wechat-reply#readme",
-  "dependencies": {
-    "wechat-encrypt": "^1.0.0",
-    "xml2js": "^0.4.19"
-  }
+  "dependencies": {}
 }

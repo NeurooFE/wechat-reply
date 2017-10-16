@@ -10,11 +10,9 @@ npm install @neuroo_fe/wechat-reply -S
 
 ```javascript
 const app = require('express')()
+const wechat = require('wechat')
 const Reply = require('@neuroo_fe/wechat-reply')
 const options = {
-  appId: '',
-  encodingAESKey: '',
-  token: '',
   rules: [
     {
       keywords: ['包含', '^匹配开头', '匹配结尾$', '^全匹配$', '模糊.*匹配。?'],
@@ -33,7 +31,7 @@ const options = {
 }
 const reply = new Reply(options)
 
-app.post('/wechat', reply.middlewarify())
+app.post('/wechat', wechat(config).middlewarify(), reply.middlewarify())
 ```
 
 ### options 对象属性
